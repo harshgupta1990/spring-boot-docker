@@ -57,7 +57,7 @@ pipeline
 			             
 			            steps 
 						{
-			                sh "docker run -d -p 9090:8080 harshgupta1990/spring-boot-docker"
+			                sh "docker run -d -p 7071:8080 harshgupta1990/spring-boot-docker"
 			 
 			            }
 			  }
