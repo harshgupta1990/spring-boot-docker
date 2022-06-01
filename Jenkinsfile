@@ -44,7 +44,7 @@ pipeline
 			          
 			            steps 
 			            {
-					        withDockerRegistry([ credentialsId: "dockerHub", url: "" ]) 
+					        withDockerRegistry([ credentialsId: "dockerhub", url: "" ]) 
 					        {
 					          sh  'docker push harshgupta1990/spring-boot-docker:latest'
 					        //  sh  'docker push harshgupta1990/spring-boot-docker:$BUILD_NUMBER' 
