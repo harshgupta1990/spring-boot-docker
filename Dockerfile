@@ -8,5 +8,5 @@
 
 FROM tomcat:8.0.20-jre8
 #Dummy text to text
-COPY target/spring-boot-docker*.jar /usr/local/tomcat/webapps/spring-boot-docker.jar
+COPY target/spring-boot-docker.jar /usr/local/tomcat/webapps/spring-boot-docker.jar
 
